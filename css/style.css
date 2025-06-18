@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url("backgound.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#loginbtn {
+    color: white;
+    background-color: #062A7F;
+    padding: 10px 20px;
+    font-family: 'Kontora-Regular', sans-serif;
+}
+
+#loginbtn:hover {
+    text-decoration: none;
+}
+
+.fontSizeNav {
+    font-size: 1.1rem;
+    font-family: 'Kontora-Regular', sans-serif;
+}
+
+.fontSizeNav:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(184, 207, 227);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.offcanvasLinks:hover {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+#offcanvasDarkNavbar {
+    display: none;
+}
+
+#blackline {
+    background-color: black;
+    color: black;
+    border-color: solid black;
+    height: 2px;
+}
+
+#txt1 {
+    font-weight: bolder;
+    margin: 0px;
+    font-family: 'Kontora-Black', sans-serif;
+}
+
+#txt2 {
+    color: #062B80;
+    font-weight: bolder;
+    margin-left: 0px;
+    font-family: 'Kontora-Black', sans-serif;
+}
+
+#txt3 {
+    margin-left: 0px;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+#txt4 {
+    font-weight: bolder;
+    margin: 0px;
+    font-family: 'Kontora-ExtraBold', sans-serif;
+}
+
+#txt5,
+#txt6 {
+    margin: 0px;
+    font-weight: bolder;
+    font-family: 'Kontora-ExtraBold', sans-serif;
+}
+
+#txt7 {
+    text-align: justify;
+    font-family: 'kontora-light', sans-serif;
+    font-size: medium;
+}
+
+#txt8 {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Kontora-ExtraBold', sans-serif;
+}
+
+#txt9 {
+    font-family: 'Kontora-ExtraBold', sans-serif;
+}
+
+#txt10 {
+    font-size: small;
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+#txt11 {
+    font-family: 'kontora-light', sans-serif;
+}
+
+.txt12 {
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+.txt13 {
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+#txt14 {
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+#txt15 {
+    font-family: 'Kontora-light', sans-serif;
+    font-size: small;
+}
+
+#btn1 {
+    color: white;
+    background-color: #062A7F;
+    padding: 10px 20px;
+    font-family: 'Kontora-Regular', sans-serif;
+}
+
+#button-addon2 {
+    background-color: black;
+    font-family: 'Kontora-Medium', sans-serif;
+}
+
+#footer {
+    background-color: #03143D;
+}
+
+#lastEdgeFooter {
+    margin-top: 140px;
+}
+
+#emailInput {
+    max-width: 450px;
+}
+
+#offcanvasDarkNavbar {
+    background-color: #03143D;
+    opacity: 90%;
+    color: white;
+}
+#coverimg{
+    height: 300px;
+}
+.linkedServices:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 766px) {
+    #navbarNav {
+        display: none;
+    }
+
+    #offcanvasDarkNavbar {
+        display: block;
+    }
+
+    #additionalCol {
+        display: none;
+    }
+}
